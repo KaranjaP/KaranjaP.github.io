@@ -1,10 +1,12 @@
-# [Your Name] - Data Analysis Portfolio
+# Data Portfolio
 
-Welcome! This repository contains the complete template for a professional, one-page data analysis portfolio website, hosted for free on GitHub Pages.
+I am Peter, welcome to my portfolio 
 
-## About This Portfolio Template
+## About This Portfolio
 
-This portfolio is designed to demonstrate skills in:
+I'm glad you're here. I have created this platform to showcase my skills, projects and achievements.
+As a data enthusiast, I'm always eager to explore data-driven opportunities and challenges.
+This portfolio is designed to demonstrate my skills in:
 - Data visualization and storytelling
 - Data modeling and analysis
 - Creating interactive, professional dashboards
