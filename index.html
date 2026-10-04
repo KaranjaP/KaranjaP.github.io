@@ -18,7 +18,7 @@
       content="Portfolio showcasing Power BI, SQL, Python, dashboards, and data storytelling."
     />
     <meta property="og:url" content="https://karanjap.github.io/" />
-    <meta property="og:image" content="assets/images/og-image.png" />
+    
 
     <!-- Twitter card -->
     <meta name="twitter:card" content="summary_large_image" />
@@ -27,7 +27,7 @@
       name="twitter:description"
       content="Portfolio showcasing Power BI, SQL, Python, dashboards, and data storytelling."
     />
-    <meta name="twitter:image" content="assets/images/og-image.png" />
+    
 
     <!-- Favicon -->
     <link rel="icon" type="image/png" href="/favicon-32x32.png" />
@@ -59,7 +59,7 @@
     <header class="site-header" role="banner">
       <div class="container">
         <h1>Peter Ng'ang'a</h1>
-        <p class="subtitle">Data Analyst | Business Intelligence</p>
+        <p class="subtitle">Data Analyst | Business Intelligence | Python & SQL</p>
 
         <div class="social-links" aria-hidden="false" aria-label="Social links">
           <!-- Add rel="noopener noreferrer" for external links -->
@@ -79,8 +79,7 @@
             ><i class="fab fa-github" aria-hidden="true"></i
             ><span class="sr-only">GitHub</span></a
           >
-          <!-- NOTE: rename your file to remove apostrophe: assets/Peter_Nganga_CV.pdf -->
-          <a href="assets/Peter_Nganga_CV.pdf" download title="Download CV"
+          <a href="assets/Sample CV.pdf" download title="Download CV"
             ><i class="fas fa-file-arrow-down" aria-hidden="true"></i
             ><span class="sr-only">Download CV</span></a
           >
@@ -107,12 +106,6 @@
           <h2>About Me</h2>
           <img
             src="assets/images/Profile photo of Peter Ng'ang'a.jpg"
-            srcset="
-              assets/images/profile-200.jpg 200w,
-              assets/images/profile-400.jpg 400w,
-              assets/images/profile-800.jpg 800w
-            "
-            sizes="(max-width:600px) 150px, 250px"
             alt="Profile photo of Peter Ng'ang'a"
             class="profile-photo"
             width="250"
@@ -121,15 +114,10 @@
           />
           <div class="about-text">
             <p>
-              I'm a data professional who transforms complex datasets into
-              actionable insights through analysis, modeling and storytelling. I
-              build interactive dashboards and reports to help stakeholders make
-              data-driven decisions.
+              I'm a data analyst focused on turning complex datasets into clear, actionable business insights. I combine data cleaning, analysis, modeling, visualization, and storytelling to build practical solutions that help stakeholders make better decisions.
             </p>
             <p>
-              My core tools include Excel, Power BI, SQL and Python. This
-              portfolio highlights projects that demonstrate visualization,
-              modeling, and end-to-end analytics workflows.
+              My core tools include Python, SQL, Power BI, Excel, and data visualization. This portfolio highlights end-to-end analytics projects, from raw data preparation and analysis to interactive dashboards and business recommendations.
             </p>
           </div>
         </div>
@@ -141,23 +129,22 @@
           <h2>Featured Projects</h2>
           <div class="projects-grid">
             <article class="project-card" aria-labelledby="proj1-title">
-              <img
-                src="assets/images/dashboard.png"
-                alt="Preview of the Online Retail Sales Dashboard, showing revenue KPIs, a monthly trend chart, and top-product rankings"
-                loading="lazy"
-                srcset="
-                  assets/images/dashboard-preview-400.jpg 400w,
-                  assets/images/dashboard-preview-800.jpg 800w
-                "
-                sizes="(max-width:600px) 100vw, 33vw"
-              />
+              <div class="project-image-gallery">
+                <img src="assets/images/dashboard.png" alt="Online Retail Sales Dashboard overview showing revenue KPIs, trends, and product performance" loading="lazy" />
+                <img src="assets/images/dashboard2.png" alt="Online Retail Sales Dashboard detailed view showing additional business analysis" loading="lazy" />
+              </div>
               <div class="project-card-content">
+                <p class="project-label">Featured Analytics Project</p>
                 <h3 id="proj1-title">Online Retail Sales Dashboard</h3>
-                <p>
-                  Interactive Streamlit dashboard turning ~1.07M raw UK retail
-                  transactions into revenue KPIs, seasonal trends, and business
-                  recommendations. Built with Python, Pandas, and Plotly.
+                <p class="project-overview">
+                  I built an interactive Streamlit dashboard that transforms approximately 1.07 million UK online-retail transactions into decision-ready sales insights. It brings revenue performance, customer and product trends, market performance, and seasonal patterns into one interface so a stakeholder can quickly see what is selling, where revenue is coming from, and how sales are changing over time.
                 </p>
+                <div class="project-details">
+                  <div><h4>What I built</h4><p>A Python-based analytics application with data cleaning, KPI calculations, interactive filters, trend analysis, product rankings, country-level analysis, and automated business insights.</p></div>
+                  <div><h4>Technical stack</h4><p>Python, Pandas, Plotly, Streamlit, Excel, Git and GitHub.</p></div>
+                  <div><h4>Key challenge</h4><p>Converting a large, messy transaction dataset into reliable metrics while handling cancellations, invalid prices or quantities, missing descriptions, date filtering, and aggregation across markets and products.</p></div>
+                  <div><h4>Business outcome</h4><p>The dashboard turns transaction-level data into a self-service view of sales performance, helping users identify revenue trends, leading products and markets, and areas that warrant further investigation.</p></div>
+                </div>
                 <div class="project-buttons">
                   <a
                     href="https://github.com/KaranjaP/Python-Online-Sales-Dashboard"
